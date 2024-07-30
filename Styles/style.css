@@ -12,7 +12,12 @@ footer{
 }
 
 body{
-    background-color: #eeeee1;
+    background-color: #f4f3f3;
+}
+
+h1
+,h2{
+    color: #000056;
 }
 
 header{
@@ -105,3 +110,32 @@ header{
     transform: scale(1.1);
 }
 
+/* Head section styles*/
+#head-section{
+    margin-top: 30px;
+    display: flex;
+}
+
+#head-section div {
+    display: inline-block;
+    
+}
+#head-section div div {
+    display: flex;
+    
+}
+
+#head-section div div div{
+    display: inline-block;
+    
+} 
+
+#head-section div div #ski img {
+    display: block;
+    
+}
+
+#head-section div div div img {
+    display: block;
+    margin: 0px 12px;
+}
