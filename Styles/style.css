@@ -35,6 +35,7 @@ header{
     margin: 20px 30px 0 30px;
     overflow: hidden;
     box-shadow: 1px 1px 20px 5px  rgba(56, 51, 51, 0.2);
+    gap:70px;
 }
 
 #Navbar .menu-element{
@@ -80,13 +81,15 @@ header{
 }
 
 .secondary-button{
+    box-sizing: unset;
     background-color: #ffffff;
     color: #1DC6C6;
     border: 1px solid #1DC6C6;
-    border-radius: 15px;
+    border-radius: 10px;
     height: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
 }
 
  .secondary-button:hover {
@@ -96,13 +99,16 @@ header{
 }
 
 .primary-button {
+    box-sizing: unset;
     background-color: #1DC6C6;
     color: #ffffff;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     height: 40px;
     padding-left:  20px;
     padding-right: 20px;
+    font-size: 16px;
+
 }
 
 .primary-button:hover {
