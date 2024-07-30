@@ -2,6 +2,7 @@
 /*general selections */
 body , html{
     height: 100%;
+    width: 100%;
     margin: 0;
     position: relative;
     overflow: scroll;
@@ -144,4 +145,41 @@ header{
 #head-section div div div img {
     display: block;
     margin: 0px 12px;
+}
+
+/*hrw styling*/
+
+#hrw {
+margin: 50px 30px 0 30px;     
+height: 100%; 
+  }
+
+#hrw p{
+text-align: center;
+font-size: 22px;
+    }
+
+#hrw div div p{
+    color: #000056;
+    text-align: center;
+}
+
+
+ .Ctitle{
+text-align: center;
+font-size: 42px;
+color: #000056;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.description{
+    align-self: center;
+}
+
+/*Pourquoi section styling*/
+#Pourquoi
+{
+    margin: 70px 30px 0 30px;
+    
 }
